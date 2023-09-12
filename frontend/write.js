@@ -1,4 +1,5 @@
 const form = document.getElementById("write-form");
+
 const handleSubmitForm = async (event) => {
   event.preventDefault();
   const body = new FormData(form);
